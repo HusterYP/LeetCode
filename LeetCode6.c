@@ -30,7 +30,7 @@ bool isHappy(int n)
 		{
 			return true;
 		}
-		else if (sum == min)
+		else if (sum == min||min==2||min==3)
 			return false;
 		else if (flag == 1 || sum<min)
 			min = sum;
